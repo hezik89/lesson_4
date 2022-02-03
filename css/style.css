@@ -1,0 +1,89 @@
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Roboto:wght@100;400;700;900&display=swap');
+@font-face {
+    font-family: ProximaNova;
+    src: url(../fonts/ProximaNova-Bold.woff2) format("woff2"), url(../fonts/ProximaNova-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url(../fonts/ProximaNova-Regular.woff2) format("woff2"), url(../fonts/ProximaNova-Regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+.header {
+    padding: 20px;
+}
+
+.header__h1 {
+    font-family: ProximaNova;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(0, 110, 255);
+}
+
+.header__list-item-1 {
+    font-family: roboto;
+    font-weight: 700;
+    text-align: right;
+}
+
+.header__list-item-2 {
+    font-family: roboto;
+    font-weight: 100;
+    text-align: left;
+}
+
+.header__list-item-3 {
+    font-family: roboto;
+    font-weight: 900;
+    text-align: center;
+}
+
+.main {
+    font-family: Oswald;
+    font-size: 20px;
+}
+
+.main-p {
+    margin-bottom: 20px;
+}
+
+.main__p-1 {
+    text-decoration: line-through;
+}
+
+.main__p-2 {
+    padding: 20px;
+    text-decoration: overline;
+    line-height: 1.7;
+}
+
+.main__p-3 {
+    text-decoration: underline;
+    padding: 5px;
+    line-height: 1.2;
+}
+
+.main__p-4 {
+    text-shadow: 5px 5px 10px rgb(12, 191, 223);
+    line-height: 1.5;
+}
+
+.main__p-5 {
+    text-transform: capitalize;
+}
+
+.main__p-6 {
+    text-transform: lowercase;
+}
+
+.main__p-7 {
+    text-transform: uppercase;
+}
